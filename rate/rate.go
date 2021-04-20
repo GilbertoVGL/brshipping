@@ -3,7 +3,6 @@ package rate
 import (
 	"encoding/xml"
 	"io"
-	"log"
 	"net/http"
 	"net/url"
 	"strconv"
@@ -121,7 +120,6 @@ func buildURL(request request) (*url.URL, error) {
 	}
 
 	buildQuery(u, request)
-	log.Println(u.String())
 
 	return u, nil
 }
