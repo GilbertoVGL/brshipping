@@ -1,3 +1,3 @@
-module github.com/GilbertoVGL/brshipping
+module github.com/GilbertoVGL/postal
 
 go 1.16
